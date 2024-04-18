@@ -23,10 +23,10 @@ function sendRequest (characterList, index) {
 request(movieEndpoint, (error, response, body) => {
 	if (error) {
 		console.log(error);
-		} else {
-			const characterList = JSON.parse(body).characters;
+	} else {
+		const characterList = JSON.parse(body).characters;
 
-			sendRequest(characterList, 0);
-		}
+		sendRequest(characterList, 0);
+	}
 });
 
