@@ -18,7 +18,7 @@ connected to the water surrounding the island).
 def check_val(x):
     '''
     _summary_
-    args: 
+    args:
         n (_type_): _description_
     returns
         _type_: _description_
@@ -35,8 +35,7 @@ def island_perimeter(grid):
     '''
     row = len(grid)
     col = len(grid[0])
-    assert (1 <= row and col <= 100),\
-            " length must be between 1 and 100"
+    assert (1 <= row and col <= 100), "length must be between 1 and 100"
 
     x = 0
     for i in range(row):
@@ -62,4 +61,3 @@ def island_perimeter(grid):
                 except IndexError:
                     x += 1
     return x
-
