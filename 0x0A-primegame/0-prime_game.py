@@ -16,6 +16,8 @@ to choose
 Third round: 1
 Ben wins because there are no prime numbers for Maria to choose
 '''
+
+
 def isWinner(x, nums):
     '''
     Return: name of the player that won the most rounds
